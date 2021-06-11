@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.resume-card {
+    width: 70%;
+    height: 900px;
+    margin: 2rem auto;
+    background-color: #2A3547;
+}
+
+.header {
+    display: flex;
+    height: 20vh;
+    border-right: 2px solid #8AC23E;
+    border-bottom: 10px solid #8AC23E;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-txt {
+    color: #fff;
+    margin: 1rem 3rem;
+}
+
+.header-txt h1,
+.header-txt h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-txt h1 span {
+    color: #8AC23E;
+}
+
+.header-txt h3 {
+    width: 50%;
+    border-bottom: 2px solid #8AC23E;
+}
+
+.header-txt ul {
+    display: flex;
+    margin-top: .5rem;
+}
+
+.header-txt i {
+    background-color: #8AC23E;
+    color: #fff;
+    padding: 3px;
+}
+
+.header-photo {
+    width: 15%;
+    height: 85%;
+    margin-right: 1rem;
+    background-image: url('./passport.JPG');
+    background-position: center;
+    background-size: cover;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    color: #fff;
+}
+
+.left {
+    border-right: 10px solid #8AC23E;
+}

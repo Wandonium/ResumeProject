@@ -4,49 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clip-path Test</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 100vw;
-        }
-
-        div {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .triangle {
-            width: 500px;
-            height: 500px;
-            background-color: tomato;
-            clip-path: polygon(
-                
-                /* left rectangle */
-                0% 0%,
-                0% 100%,
-                20% 100%,
-                
-                /* right diamond */
-                5% 0%,
-                100% 0%,
-                100% 100%,
-                30% 100%
-            );
-        }
-        .trapezoid {
-            width: 100px;
-            height: 100px;
-            background-color: lime;
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hillary Wando Resume</title>
 </head>
 <body>
-    <div class="triangle"></div>
-    <!-- <div class="trapezoid"></div> -->
+    <div class="resume-card">
+        <div class="header">
+            <div class="header-txt">
+                <h1>Hillary <span>Wando</span></h1>
+                <h3>Senior Software Engineer</h3>
+                <ul>
+                    <li>
+                        <a href="tel:+254708072998" target="_blank">
+                            <i class="fas fa-phone-alt"></i>
+                            +254 708 072 998
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://hillarywando.com/" target="_blank">
+                            <i class="fas fa-globe"></i>
+                            hillarywando.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/place/Nairobi/@-1.3031934,36.5672003,10z/data=!3m1!4b1!4m5!3m4!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Nairobi, Kenya
+                        </a>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn">Download PDF</button>
+                    <button class="active-btn">Hire Me</button>
+                </div>
+            </div>
+            <div class="header-photo">
+                <!-- <img src="./passport.JPG" alt="Photo of me"> -->
+            </div>
+        </div>
+        <div class="body">
+            <div class="left">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta voluptatibus voluptas quod id iste dignissimos eum commodi, molestiae quis in, quam suscipit? Nisi est ratione deserunt ab praesentium cumque quo consectetur amet, nemo sed iste maiores sit repellendus laboriosam et ad porro quis laudantium? Et ad hic laborum voluptatum, deserunt officia itaque quas voluptates tempore a! Ad voluptatum eos laboriosam exercitationem optio quaerat ipsam est molestias. 
+            </div>
+            <div class="right">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, quasi! Minima animi deleniti necessitatibus assumenda repudiandae quam aspernatur dolorem, voluptate id. Omnis suscipit, asperiores, soluta amet ipsam eveniet iusto aperiam qui cumque expedita corporis temporibus eligendi vel consequuntur. Vero, cupiditate modi. Atque, quaerat natus animi sequi rerum facilis labore non, odit unde quod consequatur illum repellendus dicta inventore eius vitae veritatis. 
+            </div>
+        </div>
+    </div>
 </body>
 </html>
