@@ -48,13 +48,29 @@ a {
 }
 
 .header-txt h3 {
-    width: 50%;
+    width: 40%;
     border-bottom: 2px solid #8AC23E;
 }
 
 .header-txt ul {
     display: flex;
     margin-top: .5rem;
+}
+
+.header-txt li {
+    margin-right: 1rem;
+}
+
+.header-txt a {
+    color: #fff;
+    margin: 5px;
+    transition: all 0.5s;
+}
+
+.header-txt a:hover {
+    text-decoration: underline;
+    color: #8AC23E;
+    letter-spacing: .1em;
 }
 
 .header-txt i {
