@@ -21,7 +21,7 @@ a {
 
 .resume-card {
     width: 900px;
-    height: 900px;
+    height: 1024px;
     margin: 2rem auto;
     background-color: #2A3547;
 }
@@ -139,6 +139,7 @@ a {
 .left {
     border-right: 10px solid #8AC23E;
     padding: 15px;
+    height: 104%;
 }
 
 .left h3 {
@@ -186,12 +187,13 @@ a {
     transform: scaleX(1);
 }
 
-.p-languages h5 {
+.skills h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
     text-decoration: underline;
+    margin-top: .5rem;
 }
 
 .p-languages li {
@@ -265,4 +267,56 @@ a {
 
 #javascript {
     width: 80%;
+}
+
+.frameworks ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frameworks li {
+    margin: 10px;
+}
+
+.frameworks a {
+    color: #fff;
+    background-color: #8AC23E;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.frameworks a:hover {
+    box-shadow: 0 0 20px #8AC23E;
+}
+
+.tools-uls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools-uls li {
+    margin: 10px;
+    position: relative;
+}
+
+.tools-uls li::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    /* width: 10px; */
+    /* height: 10px; */
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #8AC23E;
+    border-bottom: 5px solid transparent;
+}
+
+.tools-uls a {
+    color: #8AC23E;
+}
+
+.tools-uls a:hover {
+    text-decoration: underline;
 }
