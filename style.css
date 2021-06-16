@@ -21,14 +21,14 @@ a {
 
 .resume-card {
     width: 900px;
-    height: 1024px;
+    height: 1035px;
     margin: 2rem auto;
     background-color: #2A3547;
 }
 
 .header {
     display: flex;
-    height: 28vh;
+    height: 25vh;
     border-right: 2px solid #8AC23E;
     border-bottom: 10px solid #8AC23E;
     justify-content: space-between;
@@ -59,8 +59,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: .3rem;
+    /* margin-bottom: 2rem; */
 }
 
 .header-txt li {
@@ -70,7 +70,7 @@ a {
 
 .header-txt a {
     color: #fff;
-    margin: 5px;
+    /* margin: 5px; */
     transition: all 0.5s;
     font-family: 'Raleway', sans-serif;
 }
@@ -94,6 +94,10 @@ a {
     background-image: url('./passport.JPG');
     background-position: center;
     background-size: cover;
+}
+
+.buttons {
+    margin-top: .5rem;
 }
 
 .buttons .btn {
@@ -138,8 +142,8 @@ a {
 
 .left {
     border-right: 10px solid #8AC23E;
-    padding: 15px;
-    height: 104%;
+    padding: 10px 15px;
+    height: 100.5%;
 }
 
 .left h3 {
@@ -193,7 +197,8 @@ a {
     font-size: 16px;
     text-align: center;
     text-decoration: underline;
-    margin-top: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 
 .p-languages li {
@@ -319,4 +324,59 @@ a {
 
 .tools-uls a:hover {
     text-decoration: underline;
+}
+
+.right {
+    padding: 0 15px;
+}
+
+.right h3 {
+    color: #8AC23E;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-Top: 1rem;
+    position: relative;
+}
+
+.right h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(179, 179, 179);
+}
+
+.right-item .duration {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: .5rem;
+}
+
+.right-item .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.right-item ul {
+    margin-top: .5rem;
+}
+
+.right-item li {
+    list-style-type: disc;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right-item p {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.right-item p strong {
+    color: #8AC23E;
 }
