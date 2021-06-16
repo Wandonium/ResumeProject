@@ -18,12 +18,46 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #ccc;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 2rem auto;
+}
+
+.links h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    margin-right: 1rem;
+}
+
+.links a {
+    color: rgb(85, 85, 85);
+}
+
+.links a:hover {
+    color: #333;
+}
+
 
 .resume-card {
     width: 900px;
     height: 1035px;
     margin: 2rem auto;
     background-color: #2A3547;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 }
 
 .header {
