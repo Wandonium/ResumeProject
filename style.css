@@ -62,7 +62,7 @@ body {
 
 .header {
     display: flex;
-    height: 25vh;
+    height: 235.7px;
     border-right: 2px solid #8AC23E;
     border-bottom: 10px solid #8AC23E;
     justify-content: space-between;
@@ -413,4 +413,91 @@ body {
 
 .right-item p strong {
     color: #8AC23E;
+}
+
+@media screen and (max-width: 900px) {
+    .links {
+        width: 90%;
+    }
+
+    .resume-card {
+        width: 90%;
+        height: 100%;
+    }
+
+    .header-txt h3 {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column-reverse;
+        height: 380px;
+        text-align: center;
+    }
+
+    .header-txt ul {
+        width: 100%;
+    }
+
+    .header-txt h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-photo {
+        height: 200px;
+        width: 250px;
+        margin-top: 1rem;
+        border: 5px solid #fff;
+    }
+
+    .body {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        border: none;
+    }
+
+    .frameworks ul {
+        padding-left: 3rem;
+    }
+
+    .tools-uls {
+        justify-content: space-around;
+    }
+
+    .right-item li {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-txt {
+        margin: 1rem 1.5rem;
+    }
+
+    .header-txt h3 {
+        width: 52%;
+    }
+
+    .frameworks ul {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-txt ul {
+        display: none;
+    }
+
+    .header-txt h3 {
+        width: 80%;
+    }
+
+    .frameworks ul {
+        padding: 0;
+    }
 }
