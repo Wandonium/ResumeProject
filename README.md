@@ -1,6 +1,6 @@
 # HTML-CSS Resume/CV
 
-This is a web-based resume/cv built with the latest web technologies and meant to be a modern replacement of the pdf or paper resume. This project was undertaken to practice my HTML and CSS skills. Have to keep them skills sharp. ☻  
+This is a web-based resume/cv built with the latest web technologies and meant to be a modern replacement of the pdf or paper resume. This project was undertaken to practice my HTML and CSS skills. Have to keep them skills sharp. 😎  
 
 ## Table of contents
 
